@@ -10,13 +10,9 @@
 main {
     display: flex;
     background-color: rgb(83, 83, 83);
-    padding: 20px;
+    padding: 40px;
 }
 
-.container {
-    display: block;
-    align-self: center;
-}
 
 .section-logo {
     margin: 100px;
@@ -26,8 +22,9 @@ main {
     background: rgb(226, 226, 226);
     padding: 10px;
     border-radius: 6px;
-    width: 50%;
     font-weight: 700;
+    padding: 20px;
+    width: 400px;
 }
 
 label {
