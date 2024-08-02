@@ -47,6 +47,12 @@ function changeValues() {
         currencyImage.src = "./assets/dollar.png"
     }
 
+    if (currencyText.value == "euro") {
+        currencyName.innerHTML = "Euro"
+        currencyImage.src = "./assets/euro.png"
+    }
+
+    
 
 }
 
