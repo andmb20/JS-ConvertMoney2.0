@@ -38,4 +38,18 @@ function convertValues() {
 
 }
 
+function changeValues() {
+    const currencyName = document.querySelector(".currency-name")
+    const currencyImage = document.querySelector(".currency-img")
+    
+    if (currencyText.value == "dolar") {
+        currencyName.innerHTML = "American Dollar"
+        currencyImage.src = "./assets/dollar.png"
+    }
+
+
+}
+
+
+currencyText.addEventListener("change", changeValues)
 convertButton.addEventListener("click", convertValues)
